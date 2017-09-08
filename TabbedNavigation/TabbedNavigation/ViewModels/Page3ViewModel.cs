@@ -9,5 +9,6 @@ namespace TabbedNavigation.ViewModels
 {
     class Page3ViewModel : BasePageModel
     {
+        public const string Title = "Page 3";
     }
 }

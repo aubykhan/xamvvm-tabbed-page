@@ -11,6 +11,7 @@ namespace TabbedNavigation.ViewModels
 {
     public class Page1ViewModel : BasePageModel
     {
+        public const string Title = "Page 1";
         public ICommand NavigateCommand => new Command(async () => await this.PushPageFromCacheAsync<Page3ViewModel>());
     }
 }
