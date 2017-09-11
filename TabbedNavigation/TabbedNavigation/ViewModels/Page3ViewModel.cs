@@ -7,8 +7,13 @@ using Xamvvm;
 
 namespace TabbedNavigation.ViewModels
 {
-    class Page3ViewModel : BasePageModel
+    public class Page3ViewModel : BasePageModel
     {
-        public const string Title = "Page 3";
+        public string Title { get => GetField<string>(); set => SetField(value); }
+
+        public Page3ViewModel()
+        {
+            Title = "Page 3";
+        }
     }
 }

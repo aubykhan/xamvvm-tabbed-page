@@ -4,18 +4,4 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:TabbedNavigation"
-    Title="Tabbed Page">
-
-    <!--<NavigationPage Title="{Binding Title}" Icon="icon.png">
-        <x:Arguments>
-            <local:Page1 BindingContext="{Binding Page1ViewModel}" />
-        </x:Arguments>
-    </NavigationPage>
-
-    <NavigationPage Title="Today" Icon="icon.png">
-        <x:Arguments>
-            <local:Page2 BindingContext="{Binding Page2ViewModel}" />
-        </x:Arguments>
-    </NavigationPage>-->
-
-</TabbedPage>
+    Title="Tabbed Page" />

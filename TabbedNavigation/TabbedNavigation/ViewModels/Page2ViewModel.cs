@@ -9,6 +9,11 @@ namespace TabbedNavigation.ViewModels
 {
     public class Page2ViewModel : BasePageModel
     {
-        public const string Title = "Page 2";
+        public string Title { get => GetField<string>(); set => SetField(value); }
+
+        public Page2ViewModel()
+        {
+            Title = "Page 2";
+        }
     }
 }
